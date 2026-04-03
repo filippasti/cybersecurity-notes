@@ -7,12 +7,12 @@
 
 # 📑 Inhaltsverzeichnis
 
-1. [Introduction to Cyber Security](#1-introduction-to-cyber-security)
-2. [Network Fundamentals](#2-network-fundamentals)
-3. [How The Web Works](#3-how-the-web-works)
-4. [Linux Fundamentals](#4-linux-fundamentals)
-5. [Windows Fundamentals](#5-windows-fundamentals)
-6. [Fortschritt – TryHackMe Pre-Security Path](#-fortschritt--tryhackme-pre-security-path)
+1. [Introduction to Cyber Security](#1--introduction-to-cyber-security)
+2. [Network Fundamentals](#2--network-fundamentals)
+3. [How The Web Works](#3--how-the-web-works)
+4. [Linux Fundamentals](#4--linux-fundamentals)
+5. [Windows Fundamentals](#5--windows-fundamentals)
+6. [Fortschritt – TryHackMe Pre-Security Path](#--fortschritt--tryhackme-pre-security-path)
 
 ---
 
