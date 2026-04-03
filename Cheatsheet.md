@@ -38,9 +38,9 @@ Availability: Systeme müssen verfügbar sein wenn man sie braucht
 
 | Rolle | Was man macht |
 |-------|--------------|
-Seurity Analyst | | | Security Analysten überwachen, untersuchen und reagieren auf Aktivitäten, welche im System und auf Geräten von                              Organsisationen bzw. Unternehmen auftauchen, um eine Sicherheit zu gewährleisten
-Security Engineer | | | Security Engineers entwickeln und warten Systeme und Prozesse, die das Netzwerk und die Geräte einer Organisation                           schützen
-Pentester | | | Pentester sind dafür zuständig, die Sicherheit der Systeme und Software eines Unternehmens zu überprüfen, indem er                           versucht, auf sichere Weise in diese einzudringen.
+| Seurity Analyst | Security Analysten überwachen, untersuchen und reagieren auf Aktivitäten, welche im System und auf Geräten von                              Organsisationen bzw. Unternehmen auftauchen, um eine Sicherheit zu gewährleisten |
+| Security Engineer | Security Engineers entwickeln und warten Systeme und Prozesse, die das Netzwerk und die Geräte einer Organisation                           schützen |
+| Pentester | Pentester sind dafür zuständig, die Sicherheit der Systeme und Software eines Unternehmens zu überprüfen, indem er                           versucht, auf sichere Weise in diese einzudringen. |
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
