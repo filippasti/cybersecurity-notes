@@ -2,7 +2,9 @@
 > TryHackMe Pre-Security Path  
 > Regel: Nur eintragen was ich selbst verstanden und in eigenen Worten erklären kann.
 
----
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## 📑 Inhaltsverzeichnis
 1. [Introduction to Cyber Security](#1--introduction-to-cyber-security)
@@ -13,7 +15,9 @@
 6. [Tools Übersicht](#6-️-tools-übersicht)
 7. [Begriffe & Definitionen A–Z](#7--begriffe--definitionen-az)
 
----
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## 1. 🔐 Introduction to Cyber Security
 
@@ -21,9 +25,9 @@
 Cyber Security beschäftigt sich mit dem Schutz von digitalen Systemen, Netzwerken und Daten vor unbefugtem Zugriff oder Angriffen. Ziel ist es Vertraulichkeit, Integrität und Verfügbarkeit von Informationen sicherzustellen.
 
 ### CIA Triad: 
-Confidentiality: Daten nur für Berechtigte zugänglich
-Integrity: Daten dürfen nicht unbemerkt verändert werden
-Availability: Systeme müssen verfügbar sein wenn man sie braucht
+| Confidentiality: Daten nur für Berechtigte zugänglich |
+|Integrity: Daten dürfen nicht unbemerkt verändert werden |
+| Availability: Systeme müssen verfügbar sein wenn man sie braucht |
 
 
 ### Offensive vs. Defensive Security
@@ -42,7 +46,9 @@ Availability: Systeme müssen verfügbar sein wenn man sie braucht
 | Security Engineer | Security Engineers entwickeln und warten Systeme und Prozesse, die das Netzwerk und die Geräte einer Organisation                           schützen |
 | Pentester | Pentester sind dafür zuständig, die Sicherheit der Systeme und Software eines Unternehmens zu überprüfen, indem er                           versucht, auf sichere Weise in diese einzudringen. |
 
+
 --------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## 2. 🌐 Network Fundamentals
 
@@ -125,169 +131,31 @@ Application: Stellt die Schnittstelle zwischen Benutzer und Netzwerk dar. Regelt
 
 ## 3. 🌍 How The Web Works
 
-### Was passiert wenn du eine Webseite aufrufst?
-```
-1.
-2.
-3.
-4.
-5.
-```
 
-### HTTP Request-Methoden
 
-| Methode | Zweck |
-|---------|-------|
-| | |
-| | |
-| | |
-| | |
+--------------------------------------------------------------------------------------------------------------------------------------------
 
-### HTTP Status Codes
-
-| Code | Bedeutung |
-|------|-----------|
-| | |
-| | |
-| | |
-| | |
-| | |
-
-### HTTP vs. HTTPS
-
-| | HTTP | HTTPS |
-|---|---|---|
-| **Verschlüsselung** | | |
-| **Port** | | |
-| **Sicher?** | | |
-
-### Begriffe aus diesem Modul
-
-| Begriff | Bedeutung |
-|---------|-----------|
-| | |
-| | |
-| | |
-| | |
-| | |
-
----
 
 ## 4. 🐧 Linux Fundamentals
 
-### Navigation & Dateisystem
 
-| Befehl | Was er macht | Beispiel |
-|--------|-------------|---------|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
 
-### Wichtige Linux-Verzeichnisse
+--------------------------------------------------------------------------------------------------------------------------------------------
 
-| Pfad | Inhalt |
-|------|--------|
-| | |
-| | |
-| | |
-| | |
-
-### Dateirechte
-
-```
--rwxrw-r--
-```
-
-| Recht | Buchstabe | Zahl |
-|-------|-----------|------|
-| | | |
-| | | |
-| | | |
-
-### Netzwerk-Befehle
-
-| Befehl | Was er macht |
-|--------|-------------|
-| | |
-| | |
-| | |
-| | |
-
-### Begriffe aus diesem Modul
-
-| Begriff | Bedeutung |
-|---------|-----------|
-| | |
-| | |
-| | |
-| | |
-| | |
-
----
 
 ## 5. 🪟 Windows Fundamentals
 
-### Wichtige Verzeichnisse
 
-| Pfad | Inhalt |
-|------|--------|
-| | |
-| | |
-| | |
 
-### Nützliche CMD-Befehle
+--------------------------------------------------------------------------------------------------------------------------------------------
 
-| Befehl | Was er macht |
-|--------|-------------|
-| | |
-| | |
-| | |
-| | |
-
-### Begriffe aus diesem Modul
-
-| Begriff | Bedeutung |
-|---------|-----------|
-| | |
-| | |
-| | |
-| | |
-
----
-
-## 6. 🛠️ Tools Übersicht
-
-| Tool | Kategorie | Wofür | Beispielbefehl |
-|------|-----------|-------|---------------|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-| | | | |
-
----
-
-## 7. 📚 Begriffe & Definitionen A–Z
-
-| Begriff | Erklärung in eigenen Worten |
-|---------|----------------------------|
-| | |
-| | |
-| | |
-| | |
-| | |
-
----
 
 ## ✅ Fortschritt – TryHackMe Pre-Security Path
 
 | Modul | Status | Abgeschlossen am |
 |-------|--------|-----------------|
-| Introduction to Cyber Security | ⬜ | – |
-| Network Fundamentals | ⬜ | – |
+| Introduction to Cyber Security | ✅  | 02.04.2026 |
+| Network Fundamentals | ✅  | 0.3.04.2026 |
 | How The Web Works | ⬜ | – |
 | Linux Fundamentals Part 1 | ⬜ | – |
 | Linux Fundamentals Part 2 | ⬜ | – |
