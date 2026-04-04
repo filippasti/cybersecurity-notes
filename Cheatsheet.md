@@ -28,7 +28,7 @@ Ziel ist es Vertraulichkeit, Integrität und Verfügbarkeit von Informationen si
 ## CIA Triad
 
 | Prinzip | Bedeutung |
-|-------|-----------|
+|--------|-----------|
 | **Confidentiality** | Daten nur für Berechtigte zugänglich |
 | **Integrity** | Daten dürfen nicht unbemerkt verändert werden |
 | **Availability** | Systeme müssen verfügbar sein, wenn man sie braucht |
@@ -83,8 +83,12 @@ Eine **IP-Adresse (Internet Protocol)** ist ein Set von Nummern, welches in **4 
 
 Die Nummer wird durch eine Technik namens **IP Addressing & Subnetting** berechnet.
 
-- **Public IP** → identifiziert ein Gerät im Internet  
-- **Private IP** → identifiziert Geräte innerhalb eines lokalen Netzwerks
+| Typ | Bedeutung |
+|----|-----------|
+| **Public IP** | identifiziert ein Gerät im Internet |
+| **Private IP** | identifiziert Geräte innerhalb eines lokalen Netzwerks |
+
+---
 
 ### MAC Adresse
 
@@ -94,8 +98,8 @@ Sie besteht aus zwei Teilen:
 
 | Teil | Bedeutung |
 |-----|----------|
-| Erster Teil | Hersteller des Network Interfaces |
-| Zweiter Teil | Einzigartige Adresse des Network Interfaces |
+| **Erster Teil** | Hersteller des Network Interfaces |
+| **Zweiter Teil** | Einzigartige Adresse des Network Interfaces |
 
 ---
 
@@ -109,7 +113,9 @@ Spoofing bedeutet, dass ein Gerät vortäuscht ein anderes Gerät zu sein, indem
 
 Der **Ping** benutzt **ICMP-Pakete**, um die Performance zwischen Geräten zu messen.
 
-Die Zeit wird in **Millisekunden (ms)** gemessen.
+| Messwert | Bedeutung |
+|---------|-----------|
+| **ms (Millisekunden)** | Zeit, die ein Paket für Hin- und Rückweg braucht |
 
 ---
 
@@ -140,8 +146,6 @@ Die Zeit wird in **Millisekunden (ms)** gemessen.
 
 Subnetting bedeutet, Netzwerke in kleinere Netzwerke aufzuteilen.
 
-Es benutzt drei Arten von Adressen:
-
 | Typ | Bedeutung |
 |----|-----------|
 | **Network Address** | Identifiziert den Start eines Netzwerkes |
@@ -171,10 +175,12 @@ Dafür ist **DHCP** zuständig.
 
 ### DHCP Ablauf
 
-1. **Discover** → Gerät sucht einen DHCP Server  
-2. **Offer** → Server bietet eine IP-Adresse an  
-3. **Request** → Gerät akzeptiert die IP  
-4. **ACK** → Server bestätigt die IP
+| Schritt | Beschreibung |
+|-------|-------------|
+| **Discover** | Gerät sucht einen DHCP Server |
+| **Offer** | Server bietet eine IP-Adresse an |
+| **Request** | Gerät akzeptiert die IP |
+| **ACK** | Server bestätigt die IP |
 
 ---
 
@@ -196,20 +202,94 @@ Es besteht aus **7 Layern**:
 
 ---
 
-### Transport Layer Protokolle
+# Transport Layer
 
-#### TCP (Transmission Control Protocol)
+## TCP (Transmission Control Protocol)
 
-- zuverlässig  
-- garantiert korrekte Reihenfolge  
-- Fehlerprüfung integriert  
-- langsamer aber sicher
+TCP (Transmission Control Protocol) ist ein verbindungsorientiertes Netzwerkprotokoll im TCP/IP-Modell (4 Layer).
 
-#### UDP (User Datagram Protocol)
+Bevor Daten gesendet werden, wird eine Verbindung über den **Three-Way Handshake** aufgebaut:
 
-- schnell  
-- keine Garantie für Zustellung  
-- geeignet für Streaming oder Echtzeit-Anwendungen
+| Vorteil | Beschreibung |
+|-------|-------------|
+| **Zuverlässigkeit** | TCP garantiert zuverlässige Datenübertragung |
+| **Fehlerprüfung** | Prüft Fehler über Checksum |
+| **Reihenfolge** | Daten kommen in richtiger Reihenfolge an |
+
+| Nachteil | Beschreibung |
+|--------|-------------|
+| **Langsamer** | Mehr Prüfungen und Prozesse als UDP |
+
+---
+
+## UDP (User Datagram Protocol)
+
+UDP (User Datagram Protocol) ist ein **verbindungsloses und stateless Protokoll**.
+
+Es gibt:
+
+- keinen Verbindungsaufbau  
+- keine Garantie, dass Daten ankommen
+
+Typische Anwendungen:
+
+- Video-Streaming  
+- Voice-Chat
+
+| Vorteil | Beschreibung |
+|-------|-------------|
+| **Sehr schnell** | Keine Verbindung und wenig Overhead |
+
+| Nachteil | Beschreibung |
+|--------|-------------|
+| **Keine Kontrolle** | Keine Fehlerkontrolle oder Reihenfolge-Garantie |
+
+---
+
+## Packet
+
+Ein **Packet** ist ein Datenstück auf **Layer 3 (Network Layer)** mit IP-Informationen.
+
+Beispiele:
+
+- Source IP  
+- Destination IP  
+- TTL  
+- Checksum  
+
+Daten werden im Netzwerk in viele kleine Packets aufgeteilt, gesendet und beim Empfänger wieder zusammengesetzt.
+
+---
+
+## Frame
+
+Ein **Frame** ist ein Datenstück auf **Layer 2 (Data Link Layer)**.
+
+Ein Frame:
+
+- verpackt ein Packet
+- fügt **MAC-Adressen** hinzu
+
+---
+
+## Ports
+
+Ports sind **nummerierte Kommunikationspunkte eines Geräts (0–65535)**, über die Daten gesendet und empfangen werden.
+
+Jeder Dienst nutzt meistens einen **Standard-Port**.
+
+### Bekannte Ports
+
+| Port | Protokoll | Beschreibung |
+|----|-----------|-------------|
+| **21** | FTP | Dateiaustausch über Client-Server Modell |
+| **22** | SSH | Sichere textbasierte Anmeldung an Systemen |
+| **80** | HTTP | Grundlage des World Wide Web |
+| **443** | HTTPS | HTTP mit Verschlüsselung |
+| **445** | SMB | Datei- und Druckerfreigabe im Netzwerk |
+| **3389** | RDP | Remote Desktop Verbindung |
+
+**Ports 0–1024 = Well-Known Ports**
 
 ---
 
